@@ -1,6 +1,23 @@
-""" General Class for HBNBCommand """
-prompt = '(hbnb) '
-classes = {'BaseModel': BaseModel, 'User': User, 'City': City,
+#!/usr/bin/python3
+""" AirBnB Console """
+import cmd
+import sys
+import json
+import os
+from models import storage
+from models.base_model import BaseModel
+from models.user import User
+from models.place import Place
+from models.state import State
+from models.city import City
+from models.amenity import Amenity
+from models.review import Review
+
+
+class HBNBCommand(cmd.Cmd):
+    """ General Class for HBNBCommand """
+    prompt = '(hbnb) '
+    classes = {'BaseModel': BaseModel, 'User': User, 'City': City,
                'Place': Place, 'Amenity': Amenity, 'Review': Review,
                'State': State}
 
