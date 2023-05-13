@@ -6,7 +6,7 @@ from datetime import datetime
 
 
 class BaseModel:
-    """Represent a class from which other classes inherits""".
+    """Represent a class from which other classes inherits"""
 
     def __init__(self, *args, **kwargs):
 
