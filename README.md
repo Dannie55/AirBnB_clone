@@ -48,3 +48,10 @@ Documented commands (type help <topic>):
 EOF  help  quit
 (hbnb) 
 $
+## Installation :hammer_and_wrench:
+Clone the repository and run the console.py
+```
+$ git clone https://github.com/------/AirBnB_clone.git
+```
+
+
