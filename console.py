@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-#import the necessary packages
 """ Console Module """
 import cmd
 import sys
